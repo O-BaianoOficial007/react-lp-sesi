@@ -1,3 +1,14 @@
+:root{
+    --text: #ffffff;
+    --bg: #000000;
+    --lpurple: #611e91;
+    --dpurple: #27043f;
+    --lorange: #DDA15E;
+    --dorange: #BC6C25;
+    --font: "Roboto", sans-serif;
+    --darkred: #7F2020;
+    --redshadow: #7F202056;
+}
 .navItems{
     display: flex;
     align-items: center;
@@ -44,6 +55,11 @@
     flex-direction: column;
     opacity: 1;
     transition: opacity 0.6s ease, transform 0.6s ease;
+    border: 5px solid var(--text);
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px var(--redshadow);
+    gap: 20px;
+    padding: 20px;
 }
 
 .s2{

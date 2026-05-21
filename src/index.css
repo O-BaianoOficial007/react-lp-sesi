@@ -106,10 +106,20 @@ h2{
     color: var(--bg);
 }
 h4{
-    font-size: 4px;
-    color: var(--darkred);
+    font-size: 20px;
+    color: var(--text);
     text-shadow: 0px 1px 5px var(--bg);
 
+}
+h3{
+    font-size: 2vw;
+    letter-spacing: 2px;
+    width: 67%;
+    margin-top: -20px;
+    text-align: center;
+    text-shadow: 0px 1px 5px var(--darkred);
+    animation: direita 2s ease-in-out;
+    color: var(--bg);
 }
 
 @keyframes direita {
